@@ -1,5 +1,6 @@
 import React from 'react'
 import CV from '../../assests/Resume_Suresh_Kumar.pdf'
+import './header.css'
 const CTA = () => {
   return (
     <div className='cta'>

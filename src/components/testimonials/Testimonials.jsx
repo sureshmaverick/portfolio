@@ -9,39 +9,35 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 
-import Avt1 from '../../assests/mynewimage.png'
-import Avt2 from '../../assests/mynewimage.png'
-import Avt3 from '../../assests/mynewimage.png'
-import Avt4 from '../../assests/mynewimage.png'
+import Avt1 from '../../assests/school.jpg'
+import Avt2 from '../../assests/college.png'
+// import Avt3 from '../../assests/mynewimage.png'
+// import Avt4 from '../../assests/mynewimage.png'
 
 const data=[
   {
     avatar:Avt1,
-    name:'Sunita',
-    review:'Lorem ipsum dolor sit amet consectetur adipisicing elit Blanditiis repellat ducimus eius asperiores veritatis! Inventore iusto ex aspernatur fuga nisi fugiat veritatis corporis aut cupiditateprovident consectetur molestiae illo, eos adipisci. Doloremque perspiciatis dolores a saepe nulla animi maiores tempore aspernatur quisquam, minima nesciunt ex sapiente illum corporis laborum. Ullam',
+    name:'Intermediate',
+    review:'Intermediate from Rashtriya Military School, CBSE, Bangalore, Karnataka with 9.2 (CGPA) Apr’ 13',
     },
     {
-      avatar:Avt2,
-      name:'Suresh',
-      review:'Lorem ipsum dolor sit amet consectetur adipisicing elit Blanditiis repellat ducimus eius asperiores veritatis! Inventore iusto ex aspernatur fuga nisi fugiat veritatis corporis aut cupiditateprovident consectetur molestiae illo, eos adipisci. Doloremque perspiciatis dolores a saepe nulla animi maiores tempore aspernatur quisquam, minima nesciunt ex sapiente illum corporis laborum. Ullam',
+      avatar:Avt1,
+      name:'High School',
+      review:'High School, Science from Rashtriya Military School, CBSE, Bangalore, Karnataka with 72% marks; Apr’ 15',
       },
   {
-        avatar:Avt3,
-        name:'Anita',
-        review:'Lorem ipsum dolor sit amet consectetur adipisicing elit Blanditiis repellat ducimus eius asperiores veritatis! Inventore iusto ex aspernatur fuga nisi fugiat veritatis corporis aut cupiditateprovident consectetur molestiae illo, eos adipisci. Doloremque perspiciatis dolores a saepe nulla animi maiores tempore aspernatur quisquam, minima nesciunt ex sapiente illum corporis laborum. Ullam',
+        avatar:Avt2,
+        name:'College',
+        review:'Bachelor of Engineering/Bachelor of Technology, Computer Science from Chandigarh University, Mohali, Punjab with 76.5 % marks, May’ 20',
     },
-  {
-          avatar:Avt4,
-          name:'Sunil',
-          review:'Lorem ipsum dolor sit amet consectetur adipisicing elit Blanditiis repellat ducimus eius asperiores veritatis! Inventore iusto ex aspernatur fuga nisi fugiat veritatis corporis aut cupiditateprovident consectetur molestiae illo, eos adipisci. Doloremque perspiciatis dolores a saepe nulla animi maiores tempore aspernatur quisquam, minima nesciunt ex sapiente illum corporis laborum. Ullam',
-    },
+ 
 
 ]
 const Testimonials = () => {
   return (
     <section id='testimonials'>
-      <h5>Review from Client</h5>
-      <h2>Testimonials</h2>
+      {/* <h5>Review from Client</h5> */}
+      <h2>Education</h2>
       <Swiper className='container testimonials_container'
       modules={[Pagination]}
       spaceBetween={40}

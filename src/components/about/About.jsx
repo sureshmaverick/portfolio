@@ -28,20 +28,20 @@ const About = () => {
             <article className="about_card">
               <FaUsers className='about_icon'/>
               <h5>Clients</h5>
-              <small>200+ Clinets Worldwide</small>
+              <small>Worked with 10+ Clients Worldwide</small>
 
             </article>
             <article className="about_card">
               <VscFolderLibrary className='about_icon'/>
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>10+ Completed</small>
 
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, velit saepe dolorum, enim hic reprehenderit, laboriosam voluptatum eum fugit asperiores ipsum? Incidunt doloribus sunt modi, quam illum aut ducimus numquam!
+           Working as a FullStack developer.Working on Tech like - Frontend--HTML, CSS, Bootstrap, Antd, ReactJs. Backend--NodeJs, MySql.
           </p>
-          <a href='3contact' className='btn btn-primary'>Let's Talk</a>
+          <a href='#contact' className='btn btn-primary'>Let's Talk</a>
 
         </div>
       </div>

@@ -1,55 +1,33 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assests/portfolio1.png";
-import IMG2 from "../../assests/portfolio2.png";
-import IMG3 from "../../assests/portfolio3.png";
-import IMG4 from "../../assests/portfolio4.png";
-import IMG5 from "../../assests/portfolio5.png";
-import IMG6 from "../../assests/portfolio6.png";
+import IMG1 from "../../assests/training.png";
+import IMG2 from "../../assests/myportfolio.png";
+import IMG3 from "../../assests/XPlay.png";
+
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: "Crpto Currency Dashboard & Financial Visualization",
+    title: "Tech Trainings in Tech Companies",
     github: "https://github.com",
-    demo: "https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization",
+    //demo: "https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization",
   },
   {
     id: 2,
     image: IMG2,
-    title: "Crpto Currency Dashboard & Financial Visualization",
+    title: "Create Portfolio for Software developer",
     github: "https://github.com",
-    demo: "https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization",
+    //demo: "https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization",
   },
   {
     id: 3,
     image: IMG3,
-    title: "Crpto Currency Dashboard & Financial Visualization",
+    title: "XPlay- Interactive Online Video Player",
     github: "https://github.com",
     demo: "https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization",
   },
-  {
-    id: 4,
-    image: IMG4,
-    title: "Crpto Currency Dashboard & Financial Visualization",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization",
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: "Crpto Currency Dashboard & Financial Visualization",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization",
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: "Crpto Currency Dashboard & Financial Visualization",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization",
-  },
+ 
 ];
 
 const Portfolio = () => {
@@ -59,7 +37,7 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio_container">
-        {data.map(({ id, image, title, github, demo }) => {
+        {data.map(({ id, image, title, github}) => {
           return (
             <article key={id} className="portfolio_item">
               <div className="portfolio_item-image">
@@ -72,13 +50,13 @@ const Portfolio = () => {
                 className="btn">
                   GitHub
                 </a>
-                <a
+                {/* <a
                   href={demo}
                   className="btn btn-primary"
                   target="_blank"
                 >
                   Live Demo
-                </a>
+                </a> */}
               </div>
             </article>
           );

@@ -23,6 +23,8 @@
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
+    height: 25.1rem;
+    width: 25.1rem;
 }
 
 .about_me-image:hover{
@@ -108,7 +110,7 @@
         margin: 1.5rem 0;
     }
      .about_me-image{
-        margin-top: 6rem;
+        margin-top: 0rem;
      }
   }
   
